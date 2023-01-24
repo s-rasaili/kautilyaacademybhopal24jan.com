@@ -1,0 +1,532 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar-default {
+    background-color: #d10101;
+    border-color: #440101;
+    box-shadow: #440101 0px 2px 10px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: rgb(255, 255, 255);
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: black;
+    background-color: rgb(255, 204, 0);
+}
+
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:hover {
+    color: black;
+    background-color: rgb(255, 204, 0);
+}
+
+.navbar-nav>li>.dropdown-menu {
+    margin-top: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    background-color: #d10101;
+}
+
+.dropdown-menu>li>a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: rgb(255, 255, 255);
+    white-space: nowrap;
+    background-color: #d10101;
+}
+
+.dropdown-menu>li>a:hover {
+    background-color: rgb(255, 204, 0);
+    color: black;
+}
+
+.glyphicon-chevron-left {
+    color: rgb(255, 204, 0);
+}
+
+.glyphicon-chevron-right {
+    color: rgb(255, 204, 0);
+}
+
+.bg-section-back {
+    background-color: rgb(239 239 239);
+}
+
+.bg-section-back-client {
+    background-image: url(assets/img/back2.jpg);
+    background-attachment: fixed;
+}
+
+/* .white-section-dash {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+    border-top: 3px solid #d10101;
+}
+
+.red-section-dash {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+    border-top: 3px solid #ffffff;
+}
+ */
+.footer-bs {
+    background: rgb(255, 28, 28);
+    background: radial-gradient(circle, rgba(255, 28, 28, 1) 0%, rgba(124, 0, 0, 1) 100%);
+    padding: 60px 40px;
+    color: rgba(255, 255, 255, 1.00);
+    margin-bottom: 20px;
+    border-bottom-right-radius: 6px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 6px;
+}
+
+.footer-ns div a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-ns div a:hover {
+    color: rgb(255, 204, 0);
+    text-decoration: none;
+}
+
+.btn-yellow {
+    background-color: rgb(255, 204, 0);
+    color: black;
+}
+
+.btn-yellow:hover {
+    background-color: #d10101;
+    color: rgb(255, 255, 255);
+}
+
+.bg-section-img {
+    background-image: url(/assets/img/back1.jpg);
+    background-attachment: fixed;
+}
+
+.text-white-a {
+    color: white;
+    transition: 0.2s ease-in-out;
+}
+
+.text-white-a:hover {
+    color: rgb(255, 204, 0);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* .red-section-dash {
+    border: #ffffff 1px solid;
+    margin-right: 300px;
+    margin-left: 300px;
+}
+
+.white-section-dash {
+    border: rgb(255, 28, 28) 1px solid;
+    margin-right: 300px;
+    margin-left: 300px;
+} */
+
+.p-margin-line-height-font {
+    margin: 0 -1 -1px;
+    line-height: 34px;
+    font-family: 'Anek Devanagari', sans-serif;
+    font-size: 20px;
+}
+
+.p-margin-line-height-font-upsc {
+    margin: 0 -1 -1px;
+    line-height: 16px;
+    font-family: 'Anek Devanagari', sans-serif;
+    font-size: 13px;
+}
+
+.bg-section-back-new {
+    background-color: #efefef;
+}
+
+.p-margin-line-height-font-mppsc {
+    margin: 0 -1 -1px;
+    line-height: 25px;
+    font-family: 'Anek Devanagari', sans-serif;
+    font-size: 20px;
+}
+
+.p-margin-line-height-font-SSC {
+    margin: 0 -1 -1px;
+    line-height: 20px;
+    font-family: 'Anek Devanagari', sans-serif;
+    font-size: 15px;
+}
+
+.p-font {
+    font-family: 'Anek Devanagari', sans-serif;
+    font-size: 12px;
+    line-height: 10px;
+}
+
+.p-font-faculty-name {
+    font-family: 'Anek Devanagari', sans-serif;
+    font-size: 20px;
+    /* line-height: 31px; */
+}
+
+.p-font-faculty-exp {
+    font-family: 'Anek Devanagari', sans-serif;
+    font-size: 15px;
+    line-height: 10px;
+}
+
+.p-font-course-name {
+    font-family: 'Anek Devanagari', sans-serif;
+    font-size: 20px;
+    line-height: 10px;
+}
+
+.p-font-course-description {
+    font-family: 'Anek Devanagari', sans-serif;
+    font-size: 15px;
+    line-height: 10px;
+}
+
+/* .p-font-quote {
+    font-family: 'Anek Devanagari', sans-serif;
+    font-size: 20px;
+    line-height: 31px;
+    margin-top: 27px;
+} */
+
+.p-font-quote {
+    font-family: "Anek Devanagari", sans-serif;
+    font-size: 17px;
+    line-height: 31px;
+    margin-top: 11px;
+}
+
+.p-font-fot {
+    font-family: 'Anek Devanagari', sans-serif;
+    font-size: 15px;
+}
+
+.p-font-fot-link {
+    font-family: 'Anek Devanagari', sans-serif;
+    font-size: 20px;
+}
+
+.menufont {
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+}
+
+.section-font-ourcourse {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    color: red;
+}
+.section-font-ourfaculty{
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    color: #ffffff;
+}
+.section-font-director{
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    color: red;
+}
+
+.section-font-ourachivers{
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    color: white;
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+}
+
+.about-margin {
+    margin-top: 50px;
+}
+
+.img-thumbnail-rahulsir {
+    padding: 0px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    display: inline-block;
+    max-width: 90%;
+    height: auto;
+}
+
+.img-align {
+    margin: 0 auto;
+}
+
+.img-width {
+    width: 20%;
+}
+.footer-nav{
+    text-decoration: none;
+    list-style-type: none;
+}
+.footer-brand>img{
+    width:85%;
+}
+.p-font-fot>a{
+    text-decoration: none;
+    color:white;
+}
+.p-font-fot>a:hover{
+    text-decoration: none;
+    color:rgb(255, 196, 0);
+}
+
+
+/* home responsive */
+
+@media screen and (min-width:200px) and (max-width:319px) {
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+        color: rgb(255, 255, 255);
+    }
+
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+        background-color: rgb(255, 204, 0);
+        color: black;
+    }
+
+    .navbar-brand>img {
+        display: block;
+        width: 63%;
+        margin-top: -4px;
+    }
+
+    .navbar-toggle {
+        top: 45px;
+    }
+
+    .navbar-fixed-top {
+        top: -45px;
+        border-width: 0 0 1px;
+    }
+
+    .wrapper-slider {
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 129%;
+        margin-top: 34px;
+    }
+    .wrapper-ourcourses {
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 129%;
+        margin-top: 0px;
+    }
+    .wrapper-ourfaculty {
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 129%;
+        margin-top: 0px;
+    }
+    .wrapper-director-message {
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 129%;
+        margin-top: 0px;
+    }
+    .wrapper-director-achievers {
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 129%;
+        margin-top: 0px;
+    }
+    .wrapper-director-footer {
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 129%;
+        margin-top: 0px;
+    }
+    .img-width {
+        width: 77%;
+    }
+    .section-font-ourcourse {
+        font-family: 'Oswald', sans-serif;
+        font-size: 25px;
+    }
+    .section-font-ourfaculty {
+        font-family: 'Oswald', sans-serif;
+        font-size: 25px;
+    }
+    .section-font-director{
+        font-family: 'Oswald', sans-serif;
+        font-size: 25px;
+    }
+    .p-font-quote {
+        /* font-family: 'Anek Devanagari', sans-serif;
+        font-size: 20px;
+        line-height: 31px;
+        height: 1px; */
+        margin-top: 7px;
+        margin-left: -60px;
+        margin-right: -60px;
+    }
+    .footer-brand>img{
+        width: 100%;
+        margin-top: -107px;
+    }
+    
+    .footer-brand>p{
+        margin: -31px 4px 62px;
+        text-align: center;
+    }
+    .footer-nav>h4{
+        text-align: left;
+    }
+    .footer-nav>.p-font-fot-link>div>.pages{
+        text-align: center;
+    }
+    .footer-social{
+        left:10px;
+    }
+    .footer-ns>div>h4{
+        left:100%;
+    }
+    .footer-ns>div>iframe{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:425px) {
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+        color: rgb(255, 255, 255);
+    }
+
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+        background-color: rgb(255, 204, 0);
+        color: black;
+    }
+    .carousel {
+        width: 132%;
+        margin-top: 31px;
+    }
+    .wrapper-ourcourses {
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 129%;
+        margin-top: 0px;
+    }
+    .wrapper-ourfaculty {
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 129%;
+        margin-top: 0px;
+    }
+    .wrapper-director-message {
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 129%;
+        margin-top: 0px;
+    }
+    .wrapper-director-achievers {
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 129%;
+        margin-top: 0px;
+    }
+    .wrapper-director-footer {
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 129%;
+        margin-top: 0px;
+    }
+    .footer-brand>img {
+        width: 58%;
+        margin-top: -107px;
+    }
+    .section-font-ourcourse {
+        font-family: 'Oswald', sans-serif;
+        font-size: 25px;
+    }
+    .section-font-ourfaculty {
+        font-family: 'Oswald', sans-serif;
+        font-size: 25px;
+    }
+    .section-font-director{
+        font-family: 'Oswald', sans-serif;
+        font-size: 25px;
+    }
+    .p-font-quote {
+        /* font-family: 'Anek Devanagari', sans-serif;
+        font-size: 20px;
+        line-height: 31px;
+        height: 1px; */
+        margin-top: 7px;
+        margin-left: -60px;
+        margin-right: -60px;
+    }
+    .footer-brand>img{
+        width: 100%;
+        margin-top: -84px;
+        padding: 42px;
+    }
+    
+    .footer-brand>p{
+        margin: -8px 4px 62px;
+        text-align: center;
+    }
+    /* .footer-nav{
+        text-align: center;
+    } */
+    .footer-nav>h4{
+        text-align: left;
+    }
+    .footer-nav>.p-font-fot-link>div>.pages{
+        text-align: center;
+    }
+    .footer-social{
+        left:10px;
+    }
+    .footer-ns>div>h4{
+        left:100%;
+    }
+    .footer-ns>div>iframe{
+        width: 100%;
+    }
+}
